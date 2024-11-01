@@ -1,6 +1,6 @@
 import profileImage from '../../images/developer-dark.png';
 import { useContext } from 'react';
-import AboutMeContext from '../../context/AboutMeContext';
+import AboutMeContext from '../../context/AboutMeContext.jsx';
 
 const AboutMeBio = () => {
 	const { aboutMe } = useContext(AboutMeContext);

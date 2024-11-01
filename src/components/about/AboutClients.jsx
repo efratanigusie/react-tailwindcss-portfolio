@@ -1,6 +1,6 @@
 import { useContext } from 'react';
-import AboutMeContext from '../../context/AboutMeContext';
-import AboutClientSingle from './AboutClientSingle';
+import AboutMeContext from '../../context/AboutMeContext.jsx';
+import AboutClientSingle from './AboutClientSingle.jsx';
 
 
 const AboutClients = () => {

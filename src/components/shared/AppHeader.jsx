@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { FiMenu, FiMoon, FiSun, FiX } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-import useThemeSwitcher from '../../hooks/useThemeSwitcher';
-import HireMeModal from '../HireMeModal';
+import useThemeSwitcher from '../../hooks/useThemeSwitcher.jsx';
+import HireMeModal from '../HireMeModal.jsx';
 import logoLight from '../../images/logo-dark2.png';
 import logoDark from '../../images/logo-dark1.png';
 
 import { motion } from 'framer-motion';
-import Button from '../reusable/Button';
+import Button from '../reusable/Button.jsx';
 
 const AppHeader = () => {
 	const [showMenu, setShowMenu] = useState(false);

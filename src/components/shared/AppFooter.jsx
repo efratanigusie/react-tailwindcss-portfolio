@@ -5,7 +5,7 @@ import {
 	FiGlobe,
 	FiYoutube,
 } from 'react-icons/fi';
-import AppFooterCopyright from './AppFooterCopyright';
+import AppFooterCopyright from './AppFooterCopyright.jsx';
 
 const socialLinks = [
 	{

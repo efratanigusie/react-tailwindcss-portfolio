@@ -1,3 +1,5 @@
+
+
 export const aboutMeData = [
 	{
 		id: 1,

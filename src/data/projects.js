@@ -1,4 +1,6 @@
 // Import images
+
+
 import WebImage1 from '../images/web1.png';
 import WebImage2 from '../images/web2.png';
 import MobileImage1 from '../images/web3.png';

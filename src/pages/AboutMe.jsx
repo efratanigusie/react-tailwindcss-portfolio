@@ -1,7 +1,7 @@
-import AboutMeBio from '../components/about/AboutMeBio';
-import AboutCounter from '../components/about/AboutCounter';
-import AboutClients from '../components/about/AboutClients';
-import { AboutMeProvider } from '../context/AboutMeContext';
+import AboutMeBio from '../components/about/AboutMeBio.jsx';
+import AboutCounter from '../components/about/AboutCounter.jsx';
+import AboutClients from '../components/about/AboutClients.jsx';
+import { AboutMeProvider } from '../context/AboutMeContext.jsx';
 import { motion } from 'framer-motion';
 
 const About = () => {

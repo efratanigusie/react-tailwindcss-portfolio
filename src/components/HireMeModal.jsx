@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
-import Button from '../components/reusable/Button';
+import Button from '../components/reusable/Button.jsx';
 import { motion } from 'framer-motion';
 import { FiX } from 'react-icons/fi';
 

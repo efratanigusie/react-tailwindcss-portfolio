@@ -1,5 +1,5 @@
 import { useCountUp } from 'react-countup';
-import CounterItem from './CounterItem';
+import CounterItem from './CounterItem.jsx';
 
 const AboutCounter = () => {
 	useCountUp({ ref: 'experienceCounter', end: 2, duration: 2 });

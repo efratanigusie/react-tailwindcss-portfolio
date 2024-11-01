@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import AppBanner from '../components/shared/AppBanner';
+import AppBanner from '../components/shared/AppBanner.jsx';
 import userEvent from '@testing-library/user-event';
 
 // This runs before each test. This is good instead of having the component render in each test case

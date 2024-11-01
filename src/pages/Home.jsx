@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import AppBanner from '../components/shared/AppBanner';
-import ProjectsGrid from '../components/projects/ProjectsGrid';
-import { ProjectsProvider } from '../context/ProjectsContext';
-import Button from '../components/reusable/Button';
+import AppBanner from '../components/shared/AppBanner.jsx';
+import ProjectsGrid from '../components/projects/ProjectsGrid.jsx';
+import { ProjectsProvider } from '../context/ProjectsContext.jsx';
+import Button from '../components/reusable/Button.jsx';
 
 const Home = () => {
 	return (

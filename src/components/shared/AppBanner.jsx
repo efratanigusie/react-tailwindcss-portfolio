@@ -1,4 +1,4 @@
-import useThemeSwitcher from '../../hooks/useThemeSwitcher';
+import useThemeSwitcher from '../../hooks/useThemeSwitcher.jsx';
 import { FiArrowDownCircle } from 'react-icons/fi';
 import developerLight from '../../images/developer.png';
 import developerDark from '../../images/developer.png';
